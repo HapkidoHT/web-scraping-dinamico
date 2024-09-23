@@ -36,6 +36,7 @@ except Exception as e:
     print("Botão de habilitar mapa não encontrado ou já foi clicado:", e)
 
 # Lista de estados com suas coordenadas
+#Coordenadaa cartesianas do processo
 estados = {
     "Amazonas": "left: -159px; top: -105px;",
     "Mato Grosso": "left: 24px; top: -33px;",
