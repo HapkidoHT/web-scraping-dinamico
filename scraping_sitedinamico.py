@@ -23,6 +23,7 @@ segmento_select.select_by_value("3")# 1- Auto, 3- Caminhão
 time.sleep(2)
 
 # Seleciona o período "Junho/2024"
+#Selecionarno período desejado
 periodo_select = Select(driver.find_element(By.NAME, "periodo"))
 periodo_select.select_by_value("6,2024")
 time.sleep(5)
